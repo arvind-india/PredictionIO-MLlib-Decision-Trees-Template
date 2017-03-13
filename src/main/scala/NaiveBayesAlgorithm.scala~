@@ -2,8 +2,8 @@ package org.template.classification
 import scala.collection.JavaConverters._
 import scala.collection.JavaConversions._
 
-import io.prediction.controller.P2LAlgorithm
-import io.prediction.controller.Params
+import org.apache.predictionio.controller.P2LAlgorithm
+import org.apache.predictionio.controller.Params
 
 import org.apache.spark.mllib.linalg.Vectors
 

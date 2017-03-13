@@ -3,8 +3,8 @@ import scala.collection.JavaConverters._
 import scala.collection.JavaConversions._
 import org.apache.spark.SparkContext
 
-import io.prediction.controller.P2LAlgorithm
-import io.prediction.controller.Params
+import org.apache.predictionio.controller.P2LAlgorithm
+import org.apache.predictionio.controller.Params
 
 import org.apache.spark.mllib.linalg.Vectors
 
